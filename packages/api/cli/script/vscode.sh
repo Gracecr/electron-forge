@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR="$( dirname "$( realpath "${BASH_SOURCE[0]}" )" )"
 
 ARGS=$@
 ARGS=${ARGS// /\~ \~}
